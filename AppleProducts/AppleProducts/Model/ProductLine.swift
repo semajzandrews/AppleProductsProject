@@ -21,7 +21,7 @@ class ProductLine {
     
     class func getProductLines() -> [ProductLine] {
         
-        return []
+        return [iDevices(), mac(), software(), iPod(), iCloudAndApplePay()]
     }
     
     // MARK: - Private Helper Methods
