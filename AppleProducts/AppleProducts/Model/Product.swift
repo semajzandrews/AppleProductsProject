@@ -25,8 +25,8 @@ class Product {
     var description: String
     var rating: ProductRating
     
-    init(title: String, description: String, imageName: String){
-        self.title = title
+    init(titled: String, description: String, imageName: String){
+        self.title = titled
         self.description = description
         
         if let image = UIImage(named: imageName){
