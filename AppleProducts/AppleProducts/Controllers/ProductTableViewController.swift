@@ -17,6 +17,7 @@ class ProductTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Apple Store"
     }
     
     // MARK: - UITableViewDataSource
